@@ -32,6 +32,8 @@
     /* Sizing */
     width: 100vw;
     height: 100vh;
+
+    opacity: 0.8;
     
     /* Flexbox stuff */
     display: flex;
@@ -42,12 +44,40 @@
     text-align: center;
     
     /* Background styles */
-    background-image: url('images/b2.jpg');
+    background-image: url('images/b1.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+  .hero h1{
+    font-family: "Indie Flower", cursive;
+    font-size: 72px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+
+  .hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: white; /* CHANGE THIS LINE */
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid white; /* CHANGE THIS LINE */
+    border-radius: 20px;
+}
     </style>
   </head>
   <body>
@@ -76,9 +106,8 @@
     <!-- start -->
     <section class="hero">
       <div class="hero-inner">
-        <h1>My awesome website</h1>
-        <h2>Look at this website and bask in its amazing glory!</h2>
-        <a href="#" class="btn">Go ahead...</a>
+        <h1>Monate Wa Daar</h1>
+        <a href="#" class="btn">Book Table</a>
       </div>
     </section>
     <!-- END slider -->
