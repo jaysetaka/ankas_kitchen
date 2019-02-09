@@ -26,6 +26,59 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      body{
+          overflow-x: hidden;
+      }
+      .hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    
+    /* Background styles */
+    background-image: url('images/coffee.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .hero h1{
+    font-family: "Indie Flower", cursive;
+    font-size: 72px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+
+  .hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: white; /* CHANGE THIS LINE */
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid white; /* CHANGE THIS LINE */
+    border-radius: 20px;
+}
+  </style>
   </head>
   <body>
     
@@ -50,16 +103,11 @@
     </nav>
     <!-- END nav -->
     
-    <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image: url('images/coffee.jpg');" data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row slider-text align-items-center justify-content-center">
-            <div class="col-md-10 col-sm-12 ftco-animate text-center">
-              <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Contact</span></p>
-              <h1 class="mb-3">Contact Us</h1>
-            </div>
-          </div>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1 class="ftco-animate text-center">Contact Us</h1>
+        <div class="col-md-10 col-sm-12 ftco-animate text-center">
+          <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Contact</span></p>
         </div>
       </div>
     </section>
