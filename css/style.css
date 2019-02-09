@@ -7473,6 +7473,10 @@ h1, h2, h3, h4, h5,
           color: #fff;
           line-height: 1.2;
           font-weight: 400; }
+          @media (max-width: 550px) {
+            .owl-carousel.home-slider  {
+              height: 80vh;} 
+            }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               font-size: 40px; } }
