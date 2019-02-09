@@ -167,7 +167,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
-   }
+  }
 
 figure {
   margin: 0 0 1rem; }
@@ -451,7 +451,7 @@ pre {
 
 .pre-scrollable {
   max-height: 340px;
-  overflow-y: scroll; }
+   }
 
 .container {
   width: 100%;
@@ -1510,8 +1510,7 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-     }
+    -webkit-overflow-scrolling: touch; }
     .table-responsive-sm > .table-bordered {
       border: 0; } }
 
@@ -1520,8 +1519,7 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-     }
+    -webkit-overflow-scrolling: touch; }
     .table-responsive-md > .table-bordered {
       border: 0; } }
 
@@ -1530,8 +1528,7 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-     }
+    -webkit-overflow-scrolling: touch; }
     .table-responsive-lg > .table-bordered {
       border: 0; } }
 
@@ -1540,8 +1537,7 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-     }
+    -webkit-overflow-scrolling: touch; }
     .table-responsive-xl > .table-bordered {
       border: 0; } }
 
@@ -1549,8 +1545,7 @@ pre {
   display: block;
   width: 100%;
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-   }
+  -webkit-overflow-scrolling: touch }
   .table-responsive > .table-bordered {
     border: 0; }
 
