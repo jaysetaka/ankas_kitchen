@@ -167,7 +167,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
-  }
+  -ms-overflow-style: scrollbar; }
 
 figure {
   margin: 0 0 1rem; }
@@ -451,7 +451,7 @@ pre {
 
 .pre-scrollable {
   max-height: 340px;
-   }
+  overflow-y: scroll; }
 
 .container {
   width: 100%;
@@ -1510,7 +1510,8 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch; }
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-sm > .table-bordered {
       border: 0; } }
 
@@ -1519,7 +1520,8 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch; }
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-md > .table-bordered {
       border: 0; } }
 
@@ -1528,7 +1530,8 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch; }
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-lg > .table-bordered {
       border: 0; } }
 
@@ -1537,7 +1540,8 @@ pre {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch; }
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-xl > .table-bordered {
       border: 0; } }
 
@@ -1545,7 +1549,8 @@ pre {
   display: block;
   width: 100%;
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch }
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar; }
   .table-responsive > .table-bordered {
     border: 0; }
 
